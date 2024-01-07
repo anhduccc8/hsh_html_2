@@ -89,6 +89,18 @@
     margin-bottom: 20px;
 }
 
+.footer-bottom-content, a {
+	font-size: 20px;
+	line-height: 23px;
+	color: rgba(79, 79, 79, 1);
+	font-family: roboto;
+}
+
+.shs-footer-bottom {
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
 @media (max-width: 991px) {
 	.site-footer-main .shs-footer-main {
 		padding: 50px 0 60px;
@@ -107,5 +119,14 @@
 
 	.shs-content-footer .shs-link {
 	    font-size: 17px;
+	}
+
+	.footer-bottom-content, a {
+		font-size: 18px;
+	}
+
+	.shs-footer-bottom {
+		padding-top: 18px;
+		padding-bottom: 18px;
 	}
 }
