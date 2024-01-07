@@ -24,21 +24,25 @@
 							<a class="logo-hsh logo-desktop" href="#" title="Mori"><img alt="logo-desktop" src="assets/image/logo-dark.png"></a>
 						</div>
 						<div class="header-right shs-menu">
-							<ul class="hsh-menu-list">
-								<li>
-									<a href="#">Trang Chủ</a>
-								</li>
-								<li>
-									<a href="#">Sản Phẩm</a>
-								</li>
-								<li>
-									<a href="#">Lĩnh vực hoạt động</a>
-								</li>
-								<li>
-									<a href="#">Liên hệ</a>
-								</li>		
-							</ul>
-							<img class="hsh-img-nav" alt="logo-nav-mobile" src="assets/image/icon-nav.png">
+							<div id="menu-reponsive" class="site-navigation">
+								<ul class="hsh-menu-list">
+									<li>
+										<a href="#">Trang Chủ</a>
+									</li>
+									<li>
+										<a href="#">Sản Phẩm</a>
+									</li>
+									<li>
+										<a href="#">Lĩnh vực hoạt động</a>
+									</li>
+									<li>
+										<a href="#">Liên hệ</a>
+									</li>		
+								</ul>
+							</div>
+						</div>
+						<div id="menu-mobile" class="main-menu-mobile">
+							<span class="btn-nav-mobile open-menu" onclick="navOpen()"><span></span></span>
 						</div>
 					</div>		
 				</div>
@@ -389,10 +393,22 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="shs-footer-bottom container-default">
+			<div class="row">
+				<div class="col-12 footer-bottom-content"> 
+					@2023 - All rights reserved. Designed by
+					<a href="#" class="footer-by">
+						INNOCOM
+					</a>
+				</div>	
+			</div>
+		</div>
 	</footer>
 
 	<a href="#" class="scroll-top on">
 		<i class="zmdi zmdi-long-arrow-up"></i>
 	</a>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
